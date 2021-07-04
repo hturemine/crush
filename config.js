@@ -1,4 +1,9 @@
-const CONFIG = {
+let date = new Date
+let day = date.getDate()
+let month = date.getMonth()
+month +=1
+let year = date.getFullYear()
+let CONFIG = {
     introTitle: 'Babe à!',
     introDesc: `Trái đất vốn lạ thường
     Mà sao em cứ đi nhầm đường
@@ -13,7 +18,7 @@ const CONFIG = {
     btnReply: 'Gửi cho anh <3',
     reply: 'Yêu thì yêu mà không yêu thì yêu <33333333',
     mess: 'Anh biết mà 🥰. Yêu em nhiều nhiều 😘😘',
-    messDesc: 'Tối nay 7h anh qua đón nhé công chúa.',
+    messDesc: 'Ngày rước nàng về dinh: ${day} tháng ${month} năm ${year}',
     btnAccept: 'Okiiiii lun <3',
     messLink: 'https://www.facebook.com/tuantuan30124/' //link facebook/messenger
 }
