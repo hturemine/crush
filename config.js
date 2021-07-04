@@ -18,7 +18,7 @@ let CONFIG = {
     btnReply: 'Gửi cho anh <3',
     reply: 'Yêu thì yêu mà không yêu thì yêu <3333333',
     mess: 'Anh biết mà 🥰. Yêu em nhiều nhiều 😘😘',
-    textDate: `Ngày rước dâu: ${day} tháng ${month} năm ${year}` ,
+    messDesc: `Ngày rước dâu: ${day} tháng ${month} năm ${year}` ,
     btnAccept: 'Dạaaaa 😘',
     messLink: 'https://www.facebook.com/tuantuan30124/' //link facebook/messenger
 }
