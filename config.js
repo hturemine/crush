@@ -3,6 +3,7 @@ let day = date.getDate()
 let month = date.getMonth()
 month +=1
 let year = date.getFullYear()
+let text = `Ngày rước dâu: ${day} tháng ${month} năm ${year}`
 let CONFIG = {
     introTitle: 'Babe à!',
     introDesc: `Trái đất vốn lạ thường
@@ -18,7 +19,7 @@ let CONFIG = {
     btnReply: 'Gửi cho anh <3',
     reply: 'Yêu thì yêu mà không yêu thì yêu <3333333',
     mess: 'Anh biết mà 🥰. Yêu em nhiều nhiều 😘😘',
-    messDesc: `Ngày rước dâu: ${day} tháng ${month} năm ${year}` ,
+    messDesc: text ,
     btnAccept: 'Dạaaaa 😘',
     messLink: 'https://www.facebook.com/tuantuan30124/' //link facebook/messenger
 }
