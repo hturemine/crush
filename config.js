@@ -3,7 +3,7 @@ let day = date.getDate()
 let month = date.getMonth()
 month +=1
 let year = date.getFullYear()
-let CONFIG = {
+const CONFIG = {
     introTitle: 'Babe à!',
     introDesc: `Trái đất vốn lạ thường
     Mà sao em cứ đi nhầm đường
